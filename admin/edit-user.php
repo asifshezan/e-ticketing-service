@@ -2,6 +2,7 @@
 require_once('functions/function.php');
   get_header();
   get_sidebar();
+
   $id=$_GET['e'];
   $sel="SELECT * FROM ad_user WHERE user_id='$id'";
   $Q=mysqli_query($con,$sel);
@@ -65,33 +66,11 @@ require_once('functions/function.php');
                    </div>
                  </div>
 
-                 <div class="form-group row custom_form_group">
-                    <label class="col-sm-3 col-form-label">User Role:</label>
-                    <div class="col-sm-7">
-                      <select class="form-control" id="" name="role">
-
-                        <option value="0">Select user role</option>
-                        <?php
-                        $selr="SELECT * FROM ad_role ORDER BY role_id";
-                        $qr=mysqli_query($con,$selr);
-                        while($dat=mysqli_fetch_assoc($qr)){
-                         ?>
-                         <option value="<?= $dat['role_id']; ?>"<?php if($data['role_id']==$dat['role_id']){echo "selected";} ?>><?= $dat['role_name']; ?></option>
-                      <?php } ?>
-                      </select>
-                    </div>
-                  </div>
-                    <div class="form-group row custom_form_group">
-                       <label class="col-sm-3 col-form-label">Photo:</label>
-                       <div class="col-sm-7">
-                         <input type="file" name="" />
-                       </div>
-                     </div>
-          </div>
-          <div class="card-footer text-center">
-              <button type="submit" class="btn btn-sm btn-dark submit_btn">UPDATE</button>
-          </div>
-        </div>
+              </div>
+              <div class="card-footer text-center">
+                  <button type="submit" class="btn btn-sm btn-dark submit_btn">UPDATE</button>
+              </div>
+            </div>
     </form>
   </div>
   <?php

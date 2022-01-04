@@ -98,7 +98,7 @@
                          ?>
                         <form method="post" action="" enctype="multipart/form-data" class="account_form">
                             <div class="field-form">
-                                <input type="text" class="field-text" placeholder="User name*" name="name">
+                                <input type="text" class="field-text" placeholder="Name*" name="name">
                             </div>
                             <div class="field-form">
                                 <input type="text" class="field-text" placeholder="Phone*" name="phone">

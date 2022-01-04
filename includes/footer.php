@@ -23,9 +23,9 @@
                                 <a href="#"><img src="images/l1.png" alt=""></a>
                             </div>
                             <div class="text">
-                                <p><i class="lotus-icon-location"></i> 225 Beach Street, Australian</p>
-                                <p><i class="lotus-icon-phone"></i> 1-548-854-8898</p>
-                                <p><i class="fa fa-envelope-o"></i> <a href="mailto:hello@thelotushotel.com">hello@thelotushotel.com</a></p>
+                                <p><i class="lotus-icon-location"></i> Purbanchal Road, Uttar Badda.</p>
+                                <p><i class="lotus-icon-phone"></i> 01516788837</p>
+                                <p><i class="fa fa-envelope-o"></i> <a href="#">bdticket@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -36,9 +36,9 @@
                         <h4 class="widget-title">ABOUT</h4>
                         <ul>
                             <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
+
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Comming Soon</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <div class="widget widget_tripadvisor">
                         <h4 class="widget-title">Tripadvisor</h4>
                         <div class="tripadvisor">
-                            <p>Now with hotel reviews by</p>
+
                             <img src="images/tripadvisor.png" alt="">
                             <span class="tripadvisor-circle">
                                 <i></i>
